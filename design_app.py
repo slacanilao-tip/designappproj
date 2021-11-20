@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 
-
 sample = Flask(__name__)
 
 @sample.route("/")
